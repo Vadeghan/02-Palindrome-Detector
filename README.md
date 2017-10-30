@@ -3,26 +3,23 @@
 From Merriam Webster, a palindrome is a "word, verse, or sentence (such as “Able was I ere I saw Elba”) or a number (such as 1881) that reads the same backward or forward."  Read more about palindromes [here](https://en.wikipedia.org/wiki/Palindrome) or see some interesting examples [here](http://examples.yourdictionary.com/palindrome-examples.html).
 
 ## Overview
-> For this week's challenge, you must ...
-
-Add any extra notes, some definitions, other information or external links
-
-[Permutations](https://www.mathsisfun.com/definitions/permutation.html) are all possible arrangements of a collection of things, where the order is important.
+> For this week's challenge, you must create a function that takes in a string and passes True or False, depending on whether or not it is a palindrome
 
 #### Input:
-Add the conditions of any input to the functions here (is input always in lowercase, will there only be numerals, etc.)
+A single word given as a string consisting of only lowercase letter characters without any punctuation
 
 #### Output:
-What should the program output (age, whether or not the string meets a condition, etc.)? What is is the type of the object (int, float, str, bool, etc.)?
+The program should output a boolean value - True if the string is a palindrome, False if it isn't.
 
 #### Examples:
 ```
-Give an example input and output in pseudocode or python:
-exampleFunction(input) ==> output
+is_palindrome("kayak") => True
+is_palindrome("racecar") => True
+is_palindrome("raspberry") => False
 ```
 
 ## Extension
-Add any extension work if applicable
+Try to make the program ignore any spaces, numbers, punctuation, and/or capitalization passed by the user.
 
 ### Acknowledgments
 * Thanks to Codecademy for the original idea behind this challenge
