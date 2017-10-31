@@ -3,7 +3,7 @@
 From Merriam Webster, a palindrome is a "word, verse, or sentence (such as “Able was I ere I saw Elba”) or a number (such as 1881) that reads the same backward or forward."  Read more about palindromes [here](https://en.wikipedia.org/wiki/Palindrome) or see some interesting examples [here](http://examples.yourdictionary.com/palindrome-examples.html).
 
 ## Overview
-> For this week's challenge, you must create a function called `is_palindrome` that takes in a string and passes True or False, depending on whether or not it is a palindrome
+> For this week's challenge, you must create a function called `is_palindrome` that takes in a string and returns True or False, depending on whether or not it is a palindrome
 
 #### Input:
 A single word given as a string consisting of only lowercase letter characters without any punctuation
