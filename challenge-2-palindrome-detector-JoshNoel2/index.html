@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="palindrome_detector.js"></script>
+		<script>
+			window.onload = function() {
+				var input = document.getElementById("string_input");
+				var button = document.getElementById("button_input");
+				var checkbox = document.getElementById("checkbox_input");
+				var result = document.getElementById("result_display");
+				button.addEventListener("click", function() {
+					if (input.value.isPalindrome(checkbox.checked)) {
+						result.innerHTML = "<b>" + input.value + "</b> is a palindrome!";
+					} else {
+						result.innerHTML = "<b>" + input.value + "</b> is not a palindrome!";
+					}
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<input id="string_input"></input>
+			<input id="button_input" type="button" value="Check String"></input>
+			<br>
+			<input id="checkbox_input" type="checkbox" checked>Ignore Punctuation</input>
+			<br>
+			<p id="result_display"></p>
+		</center>
+	</body>
+</html>
